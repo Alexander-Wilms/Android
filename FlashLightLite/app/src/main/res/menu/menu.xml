@@ -8,5 +8,8 @@
     <item
         android:id="@+id/fullscreen"
         android:title="Fullscreen" />
+    <item
+        android:id="@+id/color"
+        android:title="Color" />
 
 </menu>

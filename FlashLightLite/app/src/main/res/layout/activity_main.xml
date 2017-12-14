@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@android:color/holo_red_light"
-            android:onClick="onClick"
+            android:onClick="onColorButtonClick"
             android:text="Touch the screen to hide/unhide buttons"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -38,35 +38,35 @@
                 android:id="@+id/W"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="onClick"
+                android:onClick="onColorButtonClick"
                 android:text="W" />
 
             <Button
                 android:id="@+id/B"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="onClick"
+                android:onClick="onColorButtonClick"
                 android:text="B" />
 
             <Button
                 android:id="@+id/R"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="onClick"
+                android:onClick="onColorButtonClick"
                 android:text="R" />
 
             <Button
                 android:id="@+id/Y"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="onClick"
+                android:onClick="onColorButtonClick"
                 android:text="Y" />
 
             <Button
                 android:id="@+id/G"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="onClick"
+                android:onClick="onColorButtonClick"
                 android:text="G" />
 
             <Space

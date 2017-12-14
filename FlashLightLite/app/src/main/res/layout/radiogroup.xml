@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/Black2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Black"
+                    tools:layout_editor_absoluteX="75dp"
+                    tools:layout_editor_absoluteY="125dp" />
+
+                <RadioButton
+                    android:id="@+id/White2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="White"
+                    tools:layout_editor_absoluteX="75dp"
+                    tools:layout_editor_absoluteY="125dp" />
+
+                <RadioButton
+                    android:id="@+id/Red2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Red"
+                    tools:layout_editor_absoluteX="75dp"
+                    tools:layout_editor_absoluteY="125dp" />
+
+                <RadioButton
+                    android:id="@+id/Yellow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yellow"
+                    tools:layout_editor_absoluteX="75dp"
+                    tools:layout_editor_absoluteY="125dp" />
+
+                <RadioButton
+                    android:id="@+id/Green2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Green"
+                    tools:layout_editor_absoluteX="75dp"
+                    tools:layout_editor_absoluteY="125dp" />
+
+                <!-- <RadioButton
+                    android:id="@+id/Black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Black"
+                    tools:layout_editor_absoluteX="75dp"
+                    tools:layout_editor_absoluteY="125dp" />
+
+                <RadioButton
+                    android:id="@+id/White"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="White"
+                    tools:layout_editor_absoluteX="75dp"
+                    tools:layout_editor_absoluteY="125dp" />
+
+                <RadioButton
+                    android:id="@+id/Red"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Red"
+                    tools:layout_editor_absoluteX="75dp"
+                    tools:layout_editor_absoluteY="125dp" />
+
+                <RadioButton
+                    android:id="@+id/Yellow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yellow"
+                    tools:layout_editor_absoluteX="75dp"
+                    tools:layout_editor_absoluteY="125dp" />
+
+                <RadioButton
+                    android:id="@+id/Green"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Green"
+                    tools:layout_editor_absoluteX="75dp"
+                    tools:layout_editor_absoluteY="125dp" /> -->
+
+            </RadioGroup>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
